@@ -1,0 +1,9 @@
+function [] = generateRandomFile(fileName,min,max,numLines)
+
+fileID = fopen(fileName,'w');
+
+randVec = zeros(1,numLines);
+
+randVec = randi([min,max],numLines,1);
+
+fprintf(fileID,'%6d\r\n',randVec);

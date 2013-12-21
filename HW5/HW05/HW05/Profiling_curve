@@ -1,0 +1,93 @@
+1 
+  2  Inclusive time = 0.066720 ms :  Exclusive time = 0.025312 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 16  16
+  7 Dimension N[height,width]: 16  16
+  8 
+  9  CPU computation time = 0.038144 ms
+
+  2  Inclusive time = 0.071136 ms :  Exclusive time = 0.026880 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 32  32
+  7 Dimension N[height,width]: 32  32
+  8 
+  9  CPU computation time = 0.266176 ms
+
+
+ 2  Inclusive time = 0.092288 ms :  Exclusive time = 0.027456 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 64  64
+  7 Dimension N[height,width]: 64  64
+  8 
+  9  CPU computation time = 2.130912 ms
+
+Inclusive time = 0.176128 ms :  Exclusive time = 0.037312 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 128  128
+  7 Dimension N[height,width]: 128  128
+  8 
+  9  CPU computation time = 17.452225 ms
+
+  2  Inclusive time = 0.635168 ms :  Exclusive time = 0.160864 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 256  256
+  7 Dimension N[height,width]: 256  256
+  8 
+  9  CPU computation time = 147.105667 ms
+
+  2  Inclusive time = 3.154656 ms :  Exclusive time = 1.173536 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 512  512
+  7 Dimension N[height,width]: 512  512
+  8 
+  9  CPU computation time = 1499.105225 ms
+
+Inclusive time = 14.566720 ms :  Exclusive time = 9.158944 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 1024  1024
+  7 Dimension N[height,width]: 1024  1024
+  8 
+  9  CPU computation time = 11141.240234 ms
+
+
+  2  Inclusive time = 91.980194 ms :  Exclusive time = 72.967934 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 2048  2048
+  7 Dimension N[height,width]: 2048  2048
+  8 
+  9  CPU computation time = 256967.218750 ms
+
+  2  Inclusive time = 667.773926 ms :  Exclusive time = 582.770691 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 4096  4096
+  7 Dimension N[height,width]: 4096  4096
+  8 
+  9  CPU computation time = 2313680.750000 ms
+
+
+  Inclusive time = 13328.544922 ms :  Exclusive time = 12800.438477 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 11344  11344
+  7 Dimension N[height,width]: 11344  11344
+  8
+  9  CPU computation time = 0.003200 ms

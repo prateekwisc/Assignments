@@ -1,0 +1,185 @@
+ Inclusive time = 0.122016 ms :  Exclusive time = 0.029824 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 16  16
+Dimension N[height,width]: 16  16
+
+ CPU computation time = 0.038016 ms
+
+PROFILING DATA FOR BLOCK_SIZE 16
+ Inclusive time = 71.395744 ms :  Exclusive time = 53.398434 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 2466  1653
+Dimension N[height,width]: 1653  1520
+
+ CPU computation time = 20800.273438 ms [pkgupta3@euler02 Tiled_matrixmul]$ cat cuda_profile_0.log 
+# CUDA_PROFILE_LOG_VERSION 2.0
+# CUDA_DEVICE 0 GeForce GTX 480
+# CUDA_CONTEXT 1
+# TIMESTAMPFACTOR 132728437adfb7c8
+method,gputime,cputime,occupancy
+method=[ memcpyHtoD ] gputime=[ 3804.736 ] cputime=[ 3937.817 ] 
+method=[ memcpyHtoD ] gputime=[ 4095.488 ] cputime=[ 4184.133 ] 
+method=[ memcpyHtoD ] gputime=[ 2480.640 ] cputime=[ 2560.608 ] 
+method=[ _Z15MatrixMulKernel6MatrixS_S_ ] gputime=[ 53368.574 ] cputime=[ 6.510 ] occupancy=[ 0.833 ] 
+method=[ memcpyDtoH ] gputime=[ 6566.496 ] cputime=[ 7215.665 ] 
+
+# CUDA_PROFILE_LOG_VERSION 2.0
+# CUDA_DEVICE 0 GeForce GTX 480
+# CUDA_CONTEXT 1
+# TIMESTAMPFACTOR 13272842976347f2
+method,gputime,cputime,occupancy
+method=[ memcpyHtoD ] gputime=[ 3813.792 ] cputime=[ 3942.449 ]
+method=[ memcpyHtoD ] gputime=[ 4087.488 ] cputime=[ 4167.242 ]
+method=[ memcpyHtoD ] gputime=[ 2478.624 ] cputime=[ 2549.428 ]
+method=[ _Z15MatrixMulKernel6MatrixS_S_ ] gputime=[ 53368.352 ] cputime=[ 7.059 ] occupancy=[ 0.833 ]
+method=[ memcpyDtoH ] gputime=[ 6965.920 ] cputime=[ 7394.083 ]
+
+Inclusive time = 0.120896 ms :  Exclusive time = 0.027040 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 32  32
+Dimension N[height,width]: 32  32
+
+CPU computation time = 0.273824 ms
+
+PROFILING DATA FOR BLOCK_SIZE 32
+ Inclusive time = 71.401794 ms :  Exclusive time = 53.408321 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 2466  1653
+Dimension N[height,width]: 1653  1520
+
+
+# CUDA_PROFILE_LOG_VERSION 2.0
+# CUDA_DEVICE 0 GeForce GTX 480
+# CUDA_CONTEXT 1
+# TIMESTAMPFACTOR 13272842965b992b
+method,gputime,cputime,occupancy
+method=[ memcpyHtoD ] gputime=[ 3477.184 ] cputime=[ 3572.604 ]
+method=[ memcpyHtoD ] gputime=[ 3749.088 ] cputime=[ 3771.648 ]
+method=[ memcpyHtoD ] gputime=[ 2303.488 ] cputime=[ 2337.682 ]
+method=[ _Z15MatrixMulKernel6MatrixS_S_ ] gputime=[ 53994.848 ] cputime=[ 7.358 ] occupancy=[ 0.667 ]
+method=[ memcpyDtoH ] gputime=[ 6505.536 ] cputime=[ 6840.892 ]
+
+
+ Inclusive time = 0.146304 ms :  Exclusive time = 0.031712 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 64  64
+Dimension N[height,width]: 64  64
+
+CPU computation time = 2.147456 ms 
+
+Inclusive time = 0.257920 ms :  Exclusive time = 0.049888 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 128  128
+Dimension N[height,width]: 128  128
+
+CPU computation time = 17.452576 ms 
+
+Inclusive time = 0.773472 ms :  Exclusive time = 0.183872 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 256  256
+Dimension N[height,width]: 256  256
+
+CPU computation time = 147.030014 ms
+
+Inclusive time = 3.447200 ms :  Exclusive time = 1.197120 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 512  512
+Dimension N[height,width]: 512  512
+
+CPU computation time = 1421.740479 ms 
+
+Inclusive time = 15.404064 ms :  Exclusive time = 9.200736 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 1024  1024
+Dimension N[height,width]: 1024  1024
+
+CPU computation time = 11466.194336 ms
+
+
+  
+Inclusive time = 13057.901367 ms :  Exclusive time = 12474.960938 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 11300  11300
+Dimension N[height,width]: 11300  11300
+
+CPU computation time = 0.014592 ms
+
+
+ Inclusive time = 13022.593750 ms :  Exclusive time = 12472.420898 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 11310  11310
+Dimension N[height,width]: 11310  11310
+
+ CPU computation time = 0.014464 ms 
+
+Inclusive time = 13354.977539 ms :  Exclusive time = 12803.064453 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 11340  11340
+Dimension N[height,width]: 11340  11340
+
+CPU computation time = 0.012832 ms 
+
+
+Inclusive time = 13367.563477 ms :  Exclusive time = 12800.626953 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 11344  11344
+Dimension N[height,width]: 11344  11344
+CPU computation time = 0.013984 ms 
+
+# CUDA_PROFILE_LOG_VERSION 2.0
+# CUDA_DEVICE 0 GeForce GTX 480
+# CUDA_CONTEXT 1
+# TIMESTAMPFACTOR 132c63aafa8b5c5e
+method,gputime,cputime,occupancy
+method=[ memcpyHtoD ] gputime=[ 114669.250 ] cputime=[ 114755.453 ]
+method=[ memcpyHtoD ] gputime=[ 114576.797 ] cputime=[ 114588.625 ]
+method=[ memcpyHtoD ] gputime=[ 114899.328 ] cputime=[ 114925.664 ]
+method=[ _Z15MatrixMulKernel6MatrixS_S_ ] gputime=[ 12797456.000 ] cputime=[ 6.615 ] occupancy=[ 0.833 ]
+method=[ memcpyDtoH ] gputime=[ 213808.391 ] cputime=[ 214713.141 ]
+
+# CUDA_PROFILE_LOG_VERSION 2.0
+# CUDA_DEVICE 0 GeForce GTX 480
+# CUDA_CONTEXT 1
+# TIMESTAMPFACTOR 132c63aafa1f15d8
+method,gputime,cputime,occupancy
+method=[ memcpyHtoD ] gputime=[ 114319.844 ] cputime=[ 114405.711 ]
+method=[ memcpyHtoD ] gputime=[ 114215.523 ] cputime=[ 114247.922 ]
+method=[ memcpyHtoD ] gputime=[ 114146.750 ] cputime=[ 114162.203 ]
+method=[ _Z15MatrixMulKernel6MatrixS_S_ ] gputime=[ 12799780.000 ] cputime=[ 6.761 ] occupancy=[ 0.833 ]
+method=[ memcpyDtoH ] gputime=[ 214889.469 ] cputime=[ 215800.094 ]
+
+
+  Inclusive time = 13328.544922 ms :  Exclusive time = 12800.438477 msGPU computation complete
+  3 Start CPU computation
+  4 CPU computation complete
+  5 Test PASSED
+  6 Dimension M[height,width]: 11344  11344
+  7 Dimension N[height,width]: 11344  11344
+  8
+  9  CPU computation time = 0.003200 ms

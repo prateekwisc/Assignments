@@ -1,0 +1,9 @@
+
+ Inclusive time = 0.068256 ms :  Exclusive time = 0.025824 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 32  32
+Dimension N[height,width]: 32  32
+
+ CPU computation time = 0.271008 ms 

@@ -1,0 +1,131 @@
+[pkgupta3@euler02 Tiled_matrixmul]$ cat cuda_profile_0.log
+# CUDA_PROFILE_LOG_VERSION 2.0
+# CUDA_DEVICE 0 GeForce GTX 480
+# CUDA_CONTEXT 1
+# TIMESTAMPFACTOR 13272843aaa2d071
+method,gputime,cputime,occupancy
+method=[ memcpyHtoD ] gputime=[ 4183.264 ] cputime=[ 4323.788 ] 
+method=[ memcpyHtoD ] gputime=[ 2495.744 ] cputime=[ 2573.802 ] 
+method=[ memcpyHtoD ] gputime=[ 3739.488 ] cputime=[ 3796.846 ] 
+method=[ _Z15MatrixMulKernel6MatrixS_S_ ] gputime=[ 53356.062 ] cputime=[ 7.022 ] occupancy=[ 0.833 ] 
+method=[ memcpyDtoH ] gputime=[ 6492.608 ] cputime=[ 60566.391 ] 
+
+GPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 2466  1653
+Dimension N[height,width]: 1653  1520
+[pkgupta3@euler02 Tiled_matrixmul]$ cat cuda_profile_0.log
+# CUDA_PROFILE_LOG_VERSION 2.0
+# CUDA_DEVICE 0 GeForce GTX 480
+# CUDA_CONTEXT 1
+# TIMESTAMPFACTOR 13272843a7cf1b79
+method,gputime,cputime,occupancy
+method=[ memcpyHtoD ] gputime=[ 4238.752 ] cputime=[ 4376.221 ] 
+method=[ memcpyHtoD ] gputime=[ 2518.720 ] cputime=[ 2595.958 ] 
+method=[ memcpyHtoD ] gputime=[ 3760.512 ] cputime=[ 3817.515 ] 
+method=[ _Z15MatrixMulKernel6MatrixS_S_ ] gputime=[ 54015.938 ] cputime=[ 7.537 ] occupancy=[ 0.667 ] 
+method=[ memcpyDtoH ] gputime=[ 6581.600 ] cputime=[ 61381.324 ] 
+
+
+ Inclusive time = 0.295776 ms :  Exclusive time = 0.024288 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 32  32
+Dimension N[height,width]: 32  32
+
+
+ Inclusive time = 0.324864 ms :  Exclusive time = 0.026080 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 64  64
+Dimension N[height,width]: 64  64
+
+Inclusive time = 0.294208 ms :  Exclusive time = 0.022368 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 16  16
+Dimension N[height,width]: 16  16
+
+CPU completion time = 0.038016 ms
+
+
+ Inclusive time = 0.294528 ms :  Exclusive time = 0.024384 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 32  32
+Dimension N[height,width]: 32  32
+
+CPU completion time = 0.271936 ms
+
+Inclusive time = 0.322144 ms :  Exclusive time = 0.025280 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 64  64
+Dimension N[height,width]: 64  64
+
+CPU completion time = 2.156064 ms
+
+ Inclusive time = 0.440544 ms :  Exclusive time = 0.033440 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 128  128
+Dimension N[height,width]: 128  128
+
+ CPU completion time = 17.660736 ms
+
+ Inclusive time = 1.049248 ms :  Exclusive time = 0.163040 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 256  256
+Dimension N[height,width]: 256  256
+
+ CPU completion time = 157.217407 ms 
+
+ Inclusive time = 4.229088 ms :  Exclusive time = 1.174944 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 512  512
+Dimension N[height,width]: 512  512
+
+ CPU completion time = 1436.413940 ms
+
+ Inclusive time = 16.940001 ms :  Exclusive time = 9.163648 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 1024  1024
+Dimension N[height,width]: 1024  1024
+
+
+
+ CPU completion time = 11995.843750 ms
+
+ Inclusive time = 98.589661 ms :  Exclusive time = 72.942688 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 2048  2048
+Dimension N[height,width]: 2048  2048
+
+ CPU completion time = 232779.640625 ms 
+
+Inclusive time = 678.817444 ms :  Exclusive time = 582.817078 msGPU computation complete
+Start CPU computation
+CPU computation complete
+Test PASSED
+Dimension M[height,width]: 4096  4096
+Dimension N[height,width]: 4096  4096
+
+CPU completion time = 1993869.500000 ms 
+
+  

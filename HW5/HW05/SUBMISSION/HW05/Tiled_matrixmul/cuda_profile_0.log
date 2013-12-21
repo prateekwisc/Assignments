@@ -1,0 +1,10 @@
+# CUDA_PROFILE_LOG_VERSION 2.0
+# CUDA_DEVICE 0 GeForce GTX 480
+# CUDA_CONTEXT 1
+# TIMESTAMPFACTOR 13272842965b992b
+method,gputime,cputime,occupancy
+method=[ memcpyHtoD ] gputime=[ 3477.184 ] cputime=[ 3572.604 ] 
+method=[ memcpyHtoD ] gputime=[ 3749.088 ] cputime=[ 3771.648 ] 
+method=[ memcpyHtoD ] gputime=[ 2303.488 ] cputime=[ 2337.682 ] 
+method=[ _Z15MatrixMulKernel6MatrixS_S_ ] gputime=[ 53994.848 ] cputime=[ 7.358 ] occupancy=[ 0.667 ] 
+method=[ memcpyDtoH ] gputime=[ 6505.536 ] cputime=[ 6840.892 ] 

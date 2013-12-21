@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pkgupta3/prateek/HW05/ArrayReduction/vector_reduction_gold.cpp
+stdio.h
+-
+math.h
+-
+float.h
+-
+

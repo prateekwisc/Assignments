@@ -1,0 +1,28 @@
+# include<stdlib.h>
+#include<stdio.h>
+
+int main()
+{
+int i;
+lon int ret;
+long int id = 9034567812;
+char buff[10];
+
+sprintf(buff,"%ld",id);
+printf("Hello! I'm a student");
+for(i-0;i<3;++i)
+printf("%c",buff[i]);
+return 0;
+}
+
+
+#include<stdio.h>
+void main(int argc, char* argv[])
+{
+int ctr;
+for(ctr=1;ctr<argc;ctr++)
+{
+
+printf("\n command line argument %d=%s",ctr,argv[ctr]);
+}
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/praTest.dir/matrixadd_gold.cpp.o CMakeFiles/praTest.dir/./praTest_generated_matrixadd.cu.o  -o praTest -rdynamic -lcudart 

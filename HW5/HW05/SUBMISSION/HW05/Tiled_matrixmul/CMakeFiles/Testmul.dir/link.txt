@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Testmul.dir/matrixmul_gold.cpp.o CMakeFiles/Testmul.dir/./Testmul_generated_matrixmul.cu.o  -o Testmul -rdynamic -lcudart 

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Test.dir/vector_reduction_gold.cpp.o CMakeFiles/Test.dir/./Test_generated_vector_reduction.cu.o  -o Test -rdynamic -lcudart 

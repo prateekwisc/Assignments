@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+void main(int argc, char* argv[])
+{
+int len,ctr;
+char str[100];
+for(ctr=1;((ctr<=argc) && (ctr!=' '));ctr++)
+{
+strcpy(str, argv[ctr]);
+len = strlen(str);
+printf("\n Length of %s is %d",str,len);
+}
+}

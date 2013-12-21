@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/YashTest.dir/vector_reduction_gold.cpp.o CMakeFiles/YashTest.dir/./YashTest_generated_vector_reduction.cu.o  -o YashTest -rdynamic -lcudart 
